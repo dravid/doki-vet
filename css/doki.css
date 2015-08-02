@@ -9,18 +9,21 @@
 /*****************************************
 navigacija navigation
 ******************************************/
-nav#header{
-	border:1px solid blue;
+nav.navbar-default{
+	border:3px solid blue;
 	height:90px;
 	border-radius:0px;
+	background-image:none;
 	background-color:#f00;
+	background-image:-moz-linear-gradient(35deg, #070008  30%, #2814DE 30%);
 }
-.navbar-header{
-}
+/*nav#header .container-fluid{
+background-color:#f00;
+}*/
 .navbar-brand{
 	border:1px solid red;
 	padding:3px 0px 3px 20px;
-		background-color:blue;
+	background-color:blue;
 }
 .navbar-brand img{
 	border:1px solid green;
