@@ -1,0 +1,32 @@
+/* doki.css */
+*{
+	margin:0px;
+	padding:0px;
+}
+.clear{
+	clear:both;
+}
+/*****************************************
+navigacija navigation
+******************************************/
+nav#header{
+	border:1px solid blue;
+	height:90px;
+	border-radius:0px;
+	background-color:#f00;
+}
+.navbar-header{
+}
+.navbar-brand{
+	border:1px solid red;
+	padding:3px 0px 3px 20px;
+		background-color:blue;
+}
+.navbar-brand img{
+	border:1px solid green;
+	float:left;
+}
+.navbar-brand h1{
+	float:left;
+	background-color:yellow;
+}
