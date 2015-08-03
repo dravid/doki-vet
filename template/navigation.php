@@ -23,7 +23,7 @@
 			<ul class="nav navbar-nav">
 				
 				<?php nav_main($dbc, $path); ?>
-				
+				<li> | </li>
 			</ul>
 		</div><!-- END #navigation -->
 	<!--</div> END container - Main navigation -->

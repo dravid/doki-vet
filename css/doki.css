@@ -10,26 +10,43 @@
 navigacija navigation
 ******************************************/
 nav.navbar-default{
-	border:3px solid blue;
-	height:90px;
+	border:0px solid transparent;
+	height:100px;
 	border-radius:0px;
 	background-image:none;
 	background-color:#f00;
-	background-image:-moz-linear-gradient(35deg, #070008  30%, #2814DE 30%);
+	background-image:-moz-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);
 }
-/*nav#header .container-fluid{
-background-color:#f00;
-}*/
 .navbar-brand{
-	border:1px solid red;
-	padding:3px 0px 3px 20px;
-	background-color:blue;
+	padding:12px 0px 7px 20px;
 }
 .navbar-brand img{
-	border:1px solid green;
 	float:left;
 }
 .navbar-brand h1{
 	float:left;
-	background-color:yellow;
+	display:inline;
+	color:#fff;
+	margin-left:20px;
 }
+div.navbar-collapse{
+	
+}
+ul.navbar-nav{
+	position:relative;
+	top:20px;
+	float:right;
+	margin-right:20px;
+}
+ul.navbar-nav li{
+	border-left:1px solid #fff;
+	color:#fff;
+} 
+#header ul.navbar-nav li:first-child{
+	border-left:none;
+} 
+.navbar-default .navbar-nav > li > a{ 
+	color:#fff;
+	/*margin-top:0px;
+	padding:0px;*/
+} 
