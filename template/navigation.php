@@ -20,10 +20,9 @@
 			</a>
 		</div><!-- END navbar-header -->
 		<div class="collapse navbar-collapse navbar-responsive-collapse" id="navigation">
-			<ul class="nav navbar-nav">
+			<ul class="nav navbar-nav" id="ul-nav">
 				
 				<?php nav_main($dbc, $path); ?>
-				<li> | </li>
 			</ul>
 		</div><!-- END #navigation -->
 	<!--</div> END container - Main navigation -->
