@@ -33,3 +33,14 @@ Veterinarska stanica "Doki-Vet" zapošjava
 četiri veterinara, dva veterinarska
 tehničara i jednog operatera.</div>
 </div> <!-- row -->
+<div class="row">
+	<div class="col-md-4">
+		<img src="images/tmb1.png" alt="" class="img-responsive">
+	</div>
+	<div class="col-md-4">
+		<img src="images/tmb2.png" alt="" class="img-responsive">
+	</div>
+	<div class="col-md-4">
+		<img src="images/tmb3.png" alt="" class="img-responsive">
+	</div>
+</div> <!-- row -->
