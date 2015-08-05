@@ -18,12 +18,14 @@
 	html, body {
 	  height: 100%;
 	}
+	/*
 	#wrap {
 		min-height: 100%;
 		height: auto;
 		margin: 0 auto -60px;
 		padding: 0 0 60px;
 	}
+	*/
 
 	#footer {
 	  /* Set the fixed height of the footer here */
@@ -45,5 +47,10 @@
 		box-shadow: 2px 2px 5px #cccccc;
 	}
 </style>
+<!-- produkciona verzija 
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<!-- END produkciona verzija -->
+
 <!-- Custom CSS -->
 <link rel="stylesheet" href="css/doki.css">

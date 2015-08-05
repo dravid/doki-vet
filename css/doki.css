@@ -1,10 +1,24 @@
 /* doki.css */
 *{
-	margin:0px;
-	padding:0px;
+	/*margin:0px;
+	padding:0px;*/
 }
 .clear{
 	clear:both;
+}
+div.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+	background-color:red;
+}
+.row{
+	padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+	background-color:yellow;
 }
 /*****************************************
 navigacija navigation
@@ -15,15 +29,20 @@ nav#header{
 	height:100px;
 	border-radius:0px;
 	background-image:none;
-	background-color:#f00;
-	background-image:-moz-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);
-	background-image:-webkit-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);
+	background-color:#1a2247;
+	/*background-image:-moz-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);
+	background-image:-webkit-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);*/
+}
+
+nav.navbar{
+	margin-bottom:0px;
 }
 .navbar-brand{
 	padding:12px 0px 7px 20px;
 }
 .navbar-brand img{
 	float:left;
+	padding-left:10px;
 }
 .navbar-brand h1{
 	float:left;
@@ -31,9 +50,17 @@ nav#header{
 	color:#fff;
 	margin-left:20px;
 }
-
+div.navbar-header{
+	height:100px;
+}
+div#navigation{
+border:0px solid transparent;
+/*background-color:transparent;*/
+	/*background-image:-moz-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);
+	background-image:-webkit-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);*/
+}
 div.navbar-collapse{
-	
+	background-color:green;
 }
 ul#ul-nav{
 	position:relative;
@@ -43,7 +70,6 @@ ul#ul-nav{
 	margin-top:40px;
 }
 ul#ul-nav li{
-	/*border-left:1px solid #fff;*/
 	color:#fff;
 	margin-top:0px;
 	padding-top:0px;
@@ -61,9 +87,6 @@ ul#ul-nav li::before{
 ul#ul-nav li:first-child::before{
 	content: "";
 }
-#header ul#ul-nav li:first-child{
-	border-left:none;
-} 
 .navbar-default ul#ul-nav > li > a{ 
 	color:#fff;
 	margin-top:0px;
@@ -71,3 +94,10 @@ ul#ul-nav li:first-child::before{
 	margin-bottom:0px;
 	padding-bottom:0px;
 } 
+.navbar-default ul#ul-nav > li > a:hover{ 
+	text-shadow:0px 0px 5px #fff;
+} 
+/*****************************************
+pocetna home
+******************************************/
+

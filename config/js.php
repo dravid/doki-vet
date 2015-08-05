@@ -19,3 +19,8 @@
 		})
 	});
 </script>
+
+<!-- produkciona verzija 
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<!-- END produkciona verzija -->

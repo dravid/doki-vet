@@ -4,7 +4,7 @@
 		<button id="btn_dbg" class="btn btn-default"><i class="fa fa-bug fa-2x"></i></button>
 	<?php } ?>
 	
-	<!--<div class="container-fluid">-->
+	<!--<div class="container"> -->
 		<div class="navbar-header"><!--navigaciono dugme  i logo -->
 			<button class="navbar-toggle btn-navbar" data-target=".navbar-responsive-collapse" 
 			data-toggle="collapse" type="button">

@@ -17,6 +17,6 @@
 
 <body>
 	
-<div id="wrap">
+<div class="container-fluid" id="wrap">
 	
 <?php include(D_TEMPLATE.'/navigation.php'); ?>
