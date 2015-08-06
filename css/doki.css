@@ -1,8 +1,5 @@
 /* doki.css */
-*{
-	/*margin:0px;
-	padding:0px;*/
-}
+
 .clear{
 	clear:both;
 }
@@ -11,14 +8,12 @@ div.container-fluid{
     padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
-	background-color:red;
 }
 .row{
 	padding-right: 0px;
     padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
-	background-color:yellow;
 }
 /*****************************************
 navigacija navigation
@@ -100,4 +95,20 @@ ul#ul-nav li:first-child::before{
 /*****************************************
 pocetna home
 ******************************************/
-
+#drugi-o-nama{
+	border:1px solid red;
+	padding:5% 20% 5% 2%;
+	background-image:url("../images/pas.png"), -moz-linear-gradient(to bottom, #fff  25%, #0086cf 25%);
+	background-repeat:no-repeat;
+	background-position:center right;
+	background-size:auto 80%, auto 100%;
+	
+}
+#drugi-o-nama h2{
+}
+#drugi-o-nama>img{
+	float:right;
+}
+#drugi-o-nama div:first-child{
+	float:right;
+}

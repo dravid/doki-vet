@@ -16,7 +16,7 @@
 			<a class="navbar-brand" href="index.php">
 				<img src="images/logo.png" alt="doki-vet logo" class="img-responsive" >
 				<h1 class="logo-text">Doki-Vet d.o.o.</h1>
-				<span class="clear"></span>
+				<div class="clear"></div>
 			</a>
 		</div><!-- END navbar-header -->
 		<div class="collapse navbar-collapse navbar-responsive-collapse" id="navigation">
