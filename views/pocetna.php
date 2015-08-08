@@ -55,12 +55,15 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 	</div><!--END #drugi-o-nama -->
 	<div class="row">
 		<div class="col-md-4">
-			<img src="images/tmb1.png" alt="" class="img-responsive">
+			Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod. Nonummy nibh euismod tincidunt ut laoreet.v
 		</div>
 		<div class="col-md-4">
-			<img src="images/tmb2.png" alt="" class="img-responsive">
+			Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod. Nonummy nibh euismod tincidunt ut laoreet.
 		</div>
 		<div class="col-md-4">
-			<img src="images/tmb3.png" alt="" class="img-responsive">
+			Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod. Nonummy nibh euismod tincidunt ut laoreet.
 		</div>
 	</div> <!--END row -->

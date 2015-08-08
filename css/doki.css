@@ -94,7 +94,6 @@ ul#ul-nav li{
 pocetna home
 ******************************************/
 #drugi-o-nama{
-	border:1px solid red;
 	padding:5% 20% 5% 2%;
 	background-image:url("../images/pas.png"), -moz-linear-gradient(to bottom, #fff  25%, #0086cf 25%);
 	background-repeat:no-repeat;
@@ -116,11 +115,14 @@ pocetna home
 footer
 ************************************/
 #footer{
-	border:5px solid green;
+	padding:0px;
 }
 #footer_soc{
+	color:#00a5ef;
+	background-image: -moz-linear-gradient(30deg, #182143  75%, #fff 75%);
 	position:relative;
 	text-align:right;
+	
 }
 #footer_soc span{
 	position:absolute;
@@ -132,15 +134,16 @@ footer
 }
 #footer_soc>div{
 	display:inline-block;
-	border:1px solid red;
 	margin-right:3%;
 }
 #footer_soc img{
 	display:inline-block;
 }
 #footer_contact{
+	color:white;
 	text-align:center;
 	background-color:#0086cf;
+	padding:1% 0px;
 }
 /**********************************
 media query

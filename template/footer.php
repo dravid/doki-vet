@@ -10,7 +10,6 @@
 					<img src="images/tw.png" alt="" class="img-responsive">
 					<img src="images/li.png" alt="" class="img-responsive">
 				</div>
-				<p class="clear"></p>
 			</div>
 			<div id="footer_contact">
 					<div>DOKI VET</div>
