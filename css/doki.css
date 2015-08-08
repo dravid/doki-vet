@@ -118,8 +118,29 @@ footer
 #footer{
 	border:5px solid green;
 }
+#footer_soc{
+	position:relative;
+	text-align:right;
+}
+#footer_soc span{
+	position:absolute;
+	left:3%;
+	top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);	
+}
+#footer_soc>div{
+	display:inline-block;
+	border:1px solid red;
+	margin-right:3%;
+}
+#footer_soc img{
+	display:inline-block;
+}
 #footer_contact{
 	text-align:center;
+	background-color:#0086cf;
 }
 /**********************************
 media query
