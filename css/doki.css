@@ -1,5 +1,8 @@
 /* doki.css */
 
+/****************************
+general 
+******************************/
 .clear{
 	clear:both;
 }
@@ -18,6 +21,9 @@ div.container-fluid{
 h1.naslov{
 	padding-left:10%;
 	margin-top:-2%;
+}
+li{
+	list-style-type:none;
 }
 /*****************************************
 navigacija navigation
@@ -73,16 +79,7 @@ ul#ul-nav li{
 	padding-bottom:0px;
 	padding-right:0px;
 } 
-ul#ul-nav li::before{
-	content: "";
-	position: relative;
-	top: -2px;
-	margin:0px;
-	float:left;
-}
-ul#ul-nav li:first-child::before{
-	content: "";
-}
+
 .navbar-default ul#ul-nav > li > a{ 
 	color:#fff;
 	margin-top:0px;
@@ -115,7 +112,15 @@ pocetna home
 #drugi-o-nama div:first-child{
 	float:right;
 }
-
+/**********************************
+footer
+************************************/
+#footer{
+	border:5px solid green;
+}
+#footer_contact{
+	text-align:center;
+}
 /**********************************
 media query
 ************************************/
@@ -130,5 +135,28 @@ media query
 	}
 	ul#ul-nav li::before{
 		content: "|";
+		position: relative;
+		top: -2px;
+		margin:0px;
+		float:left;
+	}
+	ul#ul-nav li:first-child::before{
+		content: "";
+	}
+	#footer_contact div{
+		display:inline-block;
+	}
+	#footer_contact div::before{
+		content: "|";
+		position: relative;
+		top: -2px;
+		margin:0px 5px 0px 0px;
+		float:left;
+	}
+	#footer_contact div:first-child::before{
+		content: "";
+	}
+	#footer_contact div:last-child::before{
+		content: "";
 	}
 }

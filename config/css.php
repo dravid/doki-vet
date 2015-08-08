@@ -25,14 +25,14 @@
 		margin: 0 auto -60px;
 		padding: 0 0 60px;
 	}
-	*/
+	
 
-	#footer {
-	  /* Set the fixed height of the footer here */
+	/*#footer {
+	   Set the fixed height of the footer here
 	  height: 60px;
 	  background-color: #f5f5f5;
 	  text-align: center;
-	}
+	}*/
 	button{
 		position: absolute;
 	}

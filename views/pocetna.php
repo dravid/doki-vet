@@ -1,6 +1,5 @@
 <?php //Pocetna ?>
 <img src="images/naslovna.png" alt="doki-vet pregled" class="img-responsive">
-<div class="container">
 	
 	<h1 class="naslov">O nama</h1>
 	
@@ -65,4 +64,3 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 			<img src="images/tmb3.png" alt="" class="img-responsive">
 		</div>
 	</div> <!--END row -->
-</div>
