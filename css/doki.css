@@ -20,17 +20,18 @@ navigacija navigation
 ******************************************/
 
 nav#header{
-	border:0px solid transparent;
+	border:none;
 	height:100px;
 	border-radius:0px;
 	background-image:none;
-	background-color:#1a2247;
-	/*background-image:-moz-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);
-	background-image:-webkit-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);*/
+	/*background-color:yellow;*/
+	margin-bottom:0px;
+	background-image:-moz-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);
+	background-image:-webkit-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);
 }
 
-nav.navbar{
-	margin-bottom:0px;
+div.navbar-header{
+	height:100px;
 }
 .navbar-brand{
 	padding:12px 0px 7px 20px;
@@ -45,17 +46,16 @@ nav.navbar{
 	color:#fff;
 	margin-left:20px;
 }
-div.navbar-header{
-	height:100px;
-}
+
 div#navigation{
-border:0px solid transparent;
-/*background-color:transparent;*/
-	/*background-image:-moz-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);
+	border:none;
+	background-color:#1a2247;
+	/*background-image:-moz-linear-gradient(25deg,   30%, #0087d0 30%);
 	background-image:-webkit-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);*/
+	/*background-color:green;*/
 }
-div.navbar-collapse{
-	background-color:green;
+div.navbar-collapse.in{
+	background-color:red;
 }
 ul#ul-nav{
 	position:relative;
@@ -111,4 +111,15 @@ pocetna home
 }
 #drugi-o-nama div:first-child{
 	float:right;
+}
+
+/**********************************
+media query
+************************************/
+@media (min-width:768px){
+	div#navigation{
+		border:0px solid transparent;
+		background-image:-moz-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);
+		background-image:-webkit-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);
+	}
 }
