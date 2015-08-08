@@ -35,7 +35,7 @@
 		četiri veterinara, dva veterinarska
 		tehničara i jednog operatera.</div>
 	</div> <!-- row -->
-	<div class="row">
+	<div class="row" id="foto_link">
 		<div class="col-md-4">
 			<img src="images/tmb1.png" alt="" class="img-responsive">
 		</div>
@@ -53,7 +53,7 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 		</div>
 		<div class="clear"></div>
 	</div><!--END #drugi-o-nama -->
-	<div class="row">
+	<div class="row" id="text_link">
 		<div class="col-md-4">
 			<h2>Blog</h2>
 			Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.
