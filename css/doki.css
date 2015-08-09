@@ -19,8 +19,24 @@ div.container-fluid{
     margin-left: auto;
 }
 h1.naslov{
-	padding-left:10%;
-	margin-top:-2%;
+	position:relative;
+	width:100%;
+	padding-left:15%;
+	margin-top:-1%;
+	padding-top:1%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+	background: transparent;
+	background: -moz-linear-gradient(30deg, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0.00) 30%);
+	/*background: -webkit-linear-gradient(333deg, rgb(255, 255, 255) 30%, transparent 30%);
+	background: -o-linear-gradient(333deg, rgb(255, 255, 255) 30%, transparent 30%);
+	background: -ms-linear-gradient(333deg, rgb(255, 255, 255) 30%, transparent 30%);
+	background: linear-gradient(63deg, rgb(255, 255, 255) 30%, transparent 30%);*/
+
+	color:#182143;
+	box-shadow:none;
+	border:none;
 }
 li{
 	list-style-type:none;
@@ -93,6 +109,10 @@ ul#ul-nav li{
 /*****************************************
 pocetna home
 ******************************************/
+#pocetna_text div{
+	text-align:justify;
+	margin-top:0.5%;
+}
 #foto_link{
 	margin:2% auto;
 }
@@ -103,7 +123,7 @@ pocetna home
 	background-position:center right;
 	background-size:auto 80%, auto 100%;
 	margin:1% 15px;
-	
+	color:#fff;
 }
 #drugi-o-nama h2{
 }
@@ -116,8 +136,26 @@ pocetna home
 #text_link{
 	margin:2% auto;
 }
+#text_link div{
+	text-align:justify;
+	height:100%;
+}
+#text_link div:nth-child(1){
+	background-color:#ef7b99;
+}
+#text_link div:nth-child(3){
+	background-color:#007b99;
+}
 #text_link div:nth-child(2){
 	background-color:#ef7b00;
+	background-image:url("../images/upitnik.png");
+	background-repeat:no-repeat;
+	background-position:90% 10%;
+	padding-bottom:3%;
+	color:#fff;
+}
+#text_link div:nth-child(2) h2{
+	margin:5% auto;
 }
 /**********************************
 footer
@@ -130,9 +168,10 @@ footer
 	background-image: -moz-linear-gradient(30deg, #182143  75%, #fff 75%);
 	position:relative;
 	text-align:right;
-	
 }
 #footer_soc span{
+	font-weight:bold;
+	font-size:110%;
 	position:absolute;
 	left:3%;
 	top: 50%;
@@ -143,6 +182,8 @@ footer
 #footer_soc>div{
 	display:inline-block;
 	margin-right:3%;
+	margin-top:-1%;
+	margin-bottom:1.5%;
 }
 #footer_soc img{
 	display:inline-block;

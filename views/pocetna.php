@@ -2,8 +2,7 @@
 <img src="images/naslovna.png" alt="doki-vet pregled" class="img-responsive">
 	
 	<h1 class="naslov">O nama</h1>
-	
-	<div class="row">
+	<div class="row" id="pocetna_text">
 		<div class="col-md-4">Veterinarska stanica "Doki-Vet" je
 		osno-vana 2006. godine. Osnivač i vlasnik
 		je dr.vet.med. Duško Petrović. Kao član
@@ -60,7 +59,7 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lo
 Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod. Nonummy nibh euismod tincidunt ut laoreet.v
 		</div>
 		<div class="col-md-4">
-			<h2>Pitali ste</h2>
+			<h2>Pitali ste<br> - odgovaramo</h2>
 			Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.
 Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod. Nonummy nibh euismod tincidunt ut laoreet.
 		</div>
