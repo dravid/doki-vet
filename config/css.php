@@ -47,7 +47,7 @@
 		box-shadow: 2px 2px 5px #cccccc;
 	}
 </style>
-<!-- produkciona verzija 
+<!-- produkciona verzija  za OFFLINE 
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <!-- END produkciona verzija -->

@@ -44,13 +44,13 @@ navigacija navigation
 
 nav#header{
 	border:none;
-	height:100px;
 	border-radius:0px;
 	background-image:none;
 	margin:0px;
-	background-image:-moz-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);
-	background-image:-webkit-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);
+	background-image:-moz-linear-gradient(25deg, #1a2247  35%, #0087d0 35%);
+	background-image:-webkit-linear-gradient(25deg, #1a2247  35%, #0087d0 35%);
 }
+
 
 div.navbar-header{
 	height:100px;
@@ -71,7 +71,7 @@ div.navbar-header{
 
 div#navigation{
 	border:none;
-	background-color:#1a2247;
+	/*background-color:#1a2247;*/
 }
 .navbar-collapse{
 	box-shadow:none;
@@ -102,11 +102,65 @@ ul#ul-nav li{
 } 
 .navbar-default ul#ul-nav > li > a:hover{ 
 	text-shadow:0px 0px 5px #fff;
-} 
+} /*
+*/
 /*****************************************
 pocetna home
 ******************************************/
+#img-sapa{
+	position:relative;
+	overflow:hidden;
+}
+#img-sapa>div{
+	position:absolute;
+	top:0px;
+	right: -30%;
+	height:100%;
+	width:30%;
+-webkit-animation: mymove 3s ; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation: mymove 3s ;
+    animation-delay: 2s;
+}
 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {right: -30%;}
+    to {right: 0px;}
+}
+
+@keyframes mymove {
+    from {right: -30%;}
+    to {right: 0px}
+}
+#img-sapa>div h1{
+    padding: 50px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #fff;
+background-color:red;
+}
+#img-sapa>div#sapa:before{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 1;
+	background-image:url(../images/sapa.png);
+	background-repeat:no-repeat;
+	background-position:80% 80%;
+	-ms-background-size: 30%;
+    -o-background-size: 30%;
+    -moz-background-size: 30%;
+    -webkit-background-size: 30%;
+    background-size: 30%;
+	background-color:rgba(0, 29, 46, 0.8);
+}
 #pocetna_text div{
 	text-align:justify;
 	margin-top:0.5%;
@@ -116,22 +170,74 @@ pocetna home
 	margin:2% auto;
 }
 #foto_link>div{
+	margin-bottom:2%;
 }
+#foto_link>div>div{
+	position:relative;
+}
+/*
 #foto_link .podnaslov{
 	position:absolute;
-	border:1px solid red;
-	width:93%;
-	margin:0px auto;
+	width:100%;
+	height:22%;
+	margin:0px;
+	color:#fff;
+	text-align:center;
 }
+#foto_link .podnaslov h3{
+	position:absolute;
+	width:100%;
+	background-color:green;
+	top:50%;
+	-webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+}
+#foto_link>div:first-child div.podnaslov{
+	background-color:#313653;
+}
+#foto_link>div:nth-child(2){
+	overflow:hidden;
+}
+#foto_link>div:nth-child(2) img{
+	-webkit-transform: translateY(22%);
+    -ms-transform: translateY(22%);
+    transform: translateY(22%);
+}
+#foto_link>div:nth-child(2) div.podnaslov{
+	background-color:#006bb3;
+}
+#foto_link>div:last-child div.podnaslov{
+	background-color:#ee7d17;
+}
+#foto_link .vise{
+	position:absolute;
+	bottom:0px;
+	background-color:#fba400;
+	padding:3px 12px;
+	left:50%;
+	-webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+	margin:0px auto;
+	color:#fff;
+	font-weight:bold;
+}
+#foto_link .vise a{
+	color:#fff;
+	font-weight:bold;
+}
+*/
 #drugi-o-nama{
-	padding:5% 20% 5% 2%;
-	background-image:url("../images/pas.png"), -moz-linear-gradient(to bottom, #fff  25%, #0086cf 25%);
-	background-image:url("../images/pas.png"), linear-gradient(to bottom, #fff  25%, #0086cf 25%);
-	background-repeat:no-repeat;
-	background-position:center right;
-	background-size:auto 80%, auto 100%;
+	padding:5%;
+	background-color: #0086cf;
 	margin:1% 15px;
 	color:#fff;
+	text-align:justify;
+	background-image:url("../images/pas-xs.png");
+	background-repeat:no-repeat;
+	background-position:95% 5%;
+	background-size:auto 30%;
 }
 #drugi-o-nama h2{
 }
@@ -147,33 +253,28 @@ pocetna home
 }
 #text_link div{
 	text-align:justify;
-    margin-bottom: -10000px;
-    padding-bottom: 10000px;
+	margin-bottom:2%;
 }
 #text_link>div:nth-child(1){
-	background-color:#ef7b99;
-	float: left;
+	/*float: left;*/
 }
-#text_link div:nth-child(3){
-	background-color:#007b99;
-	text-align:center;
-	float: right;
-}
-#text_link div:nth-child(2){
 
+#text_link div:nth-child(2){
 	background-color:#ef7b00;
 	background-image:url("../images/upitnik.png");
 	background-repeat:no-repeat;
-	background-position:90% 10%;
+	background-position:90% 5%;
+	background-size:15%;
 	padding-bottom:3%;
-	margin-bottom: -10000px;
-    padding-bottom: 10000px;
+	
 	color:#fff;
 }
 #text_link div:nth-child(2) h2{
 	margin:5% auto;
 }
-
+#text_link div:nth-child(3){
+	text-align:center;
+}
 /**********************************
 footer
 ************************************/
@@ -215,26 +316,112 @@ footer
 /**********************************
 media query
 ************************************/
+@media (max-width: 1150px) {
+	nav#header{
+		background-image:-moz-linear-gradient(25deg, #1a2247  40%, #0087d0 40%);
+		background-image:-webkit-linear-gradient(25deg, #1a2247  40%, #0087d0 40%);
+	}
+	ul#ul-nav{
+		margin:0px;
+	}
+	ul#ul-nav li{
+		margin:0px;
+	}
+	ul#ul-nav li a{
+		margin:0px;
+		padding:0px 5px 0px 8px;
+	}
+}
+@media (max-width: 1000px) {
+/* * collapse at 1000px * */
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        /*border-top: 0px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);*/
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+/* * END collapse at 1000px * */
+	nav#header{
+		background-image:-moz-linear-gradient(25deg, #1a2247  60%, #0087d0 60%);
+		background-image:-webkit-linear-gradient(25deg, #1a2247  60%, #0087d0 60%);
+	}
+}
+@media (max-width:750px){
+	nav#header{
+		background-image:-moz-linear-gradient(25deg, #1a2247  65%, #0087d0 65%);
+		background-image:-webkit-linear-gradient(25deg, #1a2247  65%, #0087d0 65%);
+	}
+}
+@media (max-width:450px){
+	nav#header{
+		background-image:-moz-linear-gradient(25deg, #1a2247  80%, #0087d0 80%);
+		background-image:-webkit-linear-gradient(25deg, #1a2247  80%, #0087d0 80%);
+	}
+	#foto_link>div{
+		width:100%;
+	}
+	h1.naslov{
+		font-size:26pt;
+		margin-bottom:0px;
+		
+	}
+}
+@media (max-width:350px){
+	#foto_link .podnaslov, #foto_link .vise{
+		visibility:hidden;
+	}
+}
+@media (min-width:450px){
+	#drugi-o-nama{
+		padding:5% 20% 5% 2%;
+		background-image:url("../images/pas-sm.png"), -moz-linear-gradient(to bottom, #fff  25%, #0086cf 25%);
+		background-image:url("../images/pas-sm.png"), linear-gradient(to bottom, #fff  25%, #0086cf 25%);
+		background-repeat:no-repeat;
+		background-position:center right;
+		background-size:auto 80%, auto 100%;
+		margin:1% 15px;
+		color:#fff;
+	}
+}
 @media (min-width:768px){
 	div#navigation{
 		border:0px solid transparent;
-		background-image:-moz-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);
-		background-image:-webkit-linear-gradient(25deg, #1a2247  30%, #0087d0 30%);
+		/*background-image:-moz-linear-gradient(25deg, #1a2247  31.3%, #0087d0 31.3%);
+		background-image:-webkit-linear-gradient(25deg, #1a2247  31.3%, #0087d0 31.3%);*/
 	}
 	ul#ul-nav{
 		float:right;
 		margin-top:40px;
 	}
-	ul#ul-nav li::before{
-		content: "|";
-		position: relative;
-		top: -2px;
-		margin:0px;
-		float:left;
-	}
-	ul#ul-nav li:first-child::before{
-		content: "";
-	}
+
 	h1.naslov{
 		position:relative;
 		width:100%;
@@ -249,6 +436,24 @@ media query
 		background: -webkit-linear-gradient(30deg, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0.00) 30%);
 		color:#182143;
 	}
+	#foto_link>div{
+		margin-bottom:0%;
+	}
+	#foto_link .podnaslov h3{
+		-webkit-transform: translateY(0%);
+		-ms-transform: translateY(0%);
+		transform: translateY(0%);
+	}
+	#drugi-o-nama{
+		padding:5% 20% 5% 2%;
+		background-image:url("../images/pas.png"), -moz-linear-gradient(to bottom, #fff  25%, #0086cf 25%);
+		background-image:url("../images/pas.png"), linear-gradient(to bottom, #fff  25%, #0086cf 25%);
+		background-repeat:no-repeat;
+		background-position:center right;
+		background-size:auto 80%, auto 100%;
+		margin:1% 15px;
+		color:#fff;
+	}
 	#text_link{
 		margin:2% auto;
 		overflow: hidden;
@@ -259,25 +464,23 @@ media query
 		padding-bottom: 10000px;
 	}
 	#text_link>div:nth-child(1){
-		background-color:#ef7b99;
 		float: left;
 	}
-	#text_link div:nth-child(3){
-		background-color:#007b99;
-		text-align:center;
-		float: right;
-	}
 	#text_link div:nth-child(2){
-
 		background-color:#ef7b00;
 		background-image:url("../images/upitnik.png");
-		/**/background-repeat:no-repeat;
+		background-repeat:no-repeat;
 		background-position:85% 0.2%;
 		padding-bottom:3%;
 		margin-bottom: -10000px;
 		padding-bottom: 10000px;
 		color:#fff;
 	}
+	#text_link div:nth-child(3){
+		text-align:center;
+		float: right;
+	}
+	
 	#footer_contact div{
 		display:inline-block;
 	}
@@ -292,6 +495,18 @@ media query
 		content: "";
 	}
 	#footer_contact div:last-child::before{
+		content: "";
+	}
+}
+@media (min-width:1000px){
+	ul#ul-nav li::before{
+		content: "|";
+		position: relative;
+		top: -2px;
+		margin:0px;
+		float:left;
+	}
+	ul#ul-nav li:first-child::before{
 		content: "";
 	}
 }
