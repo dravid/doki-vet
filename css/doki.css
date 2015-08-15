@@ -117,10 +117,10 @@ pocetna home
 	right: -30%;
 	height:100%;
 	width:30%;
--webkit-animation: mymove 3s ; /* Chrome, Safari, Opera */
-    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
-    animation: mymove 3s ;
-    animation-delay: 2s;
+	-webkit-animation: mymove 1s linear forwards; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation: mymove 1s linear forwards;
+    animation-delay: 1s;
 }
 
 /* Chrome, Safari, Opera */
@@ -133,13 +133,16 @@ pocetna home
     from {right: -30%;}
     to {right: 0px}
 }
-#img-sapa>div h1{
+#img-sapa>div h2{
     padding: 50px;
     text-align: center;
     z-index: 2;
     position: relative;
     color: #fff;
-background-color:red;
+	text-align:left;
+}
+#img-sapa>div h2 span{
+	color:orange;
 }
 #img-sapa>div#sapa:before{
 	content: ' ';
@@ -508,5 +511,15 @@ media query
 	}
 	ul#ul-nav li:first-child::before{
 		content: "";
+	}
+	#img-sapa>div h2{
+		padding-left: 60px;
+		text-align: center;
+		z-index: 2;
+		position: relative;
+		top:50%;
+		margin-top:-25%;
+		color: #fff;
+		text-align:left;
 	}
 }

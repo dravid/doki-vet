@@ -10,7 +10,7 @@
 		<img src="images/naslovna-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
 	</picture>
 	<div id="sapa"></div>
-	<div><!-- <h1>Mi pazimo na zdravlje Va&#353;eg ljubimca</h1>--></div>
+	<div> <h2><span>Mi pazimo</span><br> na zdravlje<br> Va&#353;eg ljubimca</h2></div>
 </div>	
 	<h1 class="naslov">O nama</h1>
 	<div class="row" id="pocetna_text">
