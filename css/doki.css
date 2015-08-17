@@ -81,8 +81,9 @@ ul#ul-nav{
 	position:relative;
 	top:0px;
 	float:left;
-	margin-right:20px;
+	margin-right:2px;
 	margin-top:10px;
+	margin-bottom:10px;
 }
 ul#ul-nav li{
 	color:#fff;
@@ -178,69 +179,13 @@ pocetna home
 #foto_link>div>div{
 	position:relative;
 }
-/*
-#foto_link .podnaslov{
-	position:absolute;
-	width:100%;
-	height:22%;
-	margin:0px;
-	color:#fff;
-	text-align:center;
-}
-#foto_link .podnaslov h3{
-	position:absolute;
-	width:100%;
-	background-color:green;
-	top:50%;
-	-webkit-transform: translate(0,-50%);
-    -ms-transform: translate(0,-50%);
-    transform: translate(0,-50%);
-}
-#foto_link>div:first-child div.podnaslov{
-	background-color:#313653;
-}
-#foto_link>div:nth-child(2){
-	overflow:hidden;
-}
-#foto_link>div:nth-child(2) img{
-	-webkit-transform: translateY(22%);
-    -ms-transform: translateY(22%);
-    transform: translateY(22%);
-}
-#foto_link>div:nth-child(2) div.podnaslov{
-	background-color:#006bb3;
-}
-#foto_link>div:last-child div.podnaslov{
-	background-color:#ee7d17;
-}
-#foto_link .vise{
-	position:absolute;
-	bottom:0px;
-	background-color:#fba400;
-	padding:3px 12px;
-	left:50%;
-	-webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-	margin:0px auto;
-	color:#fff;
-	font-weight:bold;
-}
-#foto_link .vise a{
-	color:#fff;
-	font-weight:bold;
-}
-*/
+
 #drugi-o-nama{
-	padding:5%;
+	padding:1% 3% 2% 3%;
 	background-color: #0086cf;
 	margin:1% 15px;
 	color:#fff;
 	text-align:justify;
-	background-image:url("../images/pas-xs.png");
-	background-repeat:no-repeat;
-	background-position:95% 5%;
-	background-size:auto 30%;
 }
 #drugi-o-nama h2{
 }
@@ -278,6 +223,10 @@ pocetna home
 #text_link div:nth-child(3){
 	text-align:center;
 }
+/**********************************
+O nama about us
+************************************/
+
 /**********************************
 footer
 ************************************/
@@ -324,16 +273,6 @@ media query
 		background-image:-moz-linear-gradient(25deg, #1a2247  40%, #0087d0 40%);
 		background-image:-webkit-linear-gradient(25deg, #1a2247  40%, #0087d0 40%);
 	}
-	ul#ul-nav{
-		margin:0px;
-	}
-	ul#ul-nav li{
-		margin:0px;
-	}
-	ul#ul-nav li a{
-		margin:0px;
-		padding:0px 5px 0px 8px;
-	}
 }
 @media (max-width: 1000px) {
 /* * collapse at 1000px * */
@@ -376,20 +315,37 @@ media query
 		background-image:-moz-linear-gradient(25deg, #1a2247  60%, #0087d0 60%);
 		background-image:-webkit-linear-gradient(25deg, #1a2247  60%, #0087d0 60%);
 	}
+	#img-sapa div h2{
+		font-size:18px;
+		padding: 25px;
+	}
 }
 @media (max-width:750px){
 	nav#header{
 		background-image:-moz-linear-gradient(25deg, #1a2247  65%, #0087d0 65%);
 		background-image:-webkit-linear-gradient(25deg, #1a2247  65%, #0087d0 65%);
 	}
+	h1.logo-text{
+		font-size:24px;
+	}
 }
 @media (max-width:450px){
 	nav#header{
-		background-image:-moz-linear-gradient(25deg, #1a2247  80%, #0087d0 80%);
-		background-image:-webkit-linear-gradient(25deg, #1a2247  80%, #0087d0 80%);
+		background-image:-moz-linear-gradient(25deg, #1a2247  60%, #0087d0 60%);
+		background-image:-webkit-linear-gradient(25deg, #1a2247  60%, #0087d0 60%);
+	}
+	#img-sapa div h2{
+		font-size:16px;
+		padding: 10px;
 	}
 	#foto_link>div{
 		width:100%;
+	}
+	h1.logo-text{
+		font-size:16px;
+		position:relative;
+		top:50%;
+		transform:translateY(-50%);
 	}
 	h1.naslov{
 		font-size:26pt;
@@ -397,19 +353,27 @@ media query
 		
 	}
 }
-@media (max-width:350px){
-	#foto_link .podnaslov, #foto_link .vise{
-		visibility:hidden;
+@media (max-width:400px){
+	#img-sapa div h2{
+		font-size:12px;
+		padding: 3%;
+	}
+	h1.logo-text{
+		margin-left:10px;
+	}
+	nav#header{
+		background-image:-moz-linear-gradient(25deg, #1a2247  76%, #0087d0 76%);
+		background-image:-webkit-linear-gradient(25deg, #1a2247  76%, #0087d0 76%);
 	}
 }
 @media (min-width:450px){
 	#drugi-o-nama{
-		padding:5% 20% 5% 2%;
-		background-image:url("../images/pas-sm.png"), -moz-linear-gradient(to bottom, #fff  25%, #0086cf 25%);
-		background-image:url("../images/pas-sm.png"), linear-gradient(to bottom, #fff  25%, #0086cf 25%);
+		padding:3% 20% 5% 2%;
+		background-image:url("../images/pas-xs.png"), -moz-linear-gradient(to bottom, #fff  10%, #0086cf 10%);
+		background-image:url("../images/pas-xs.png"), linear-gradient(to bottom, #fff  10%, #0086cf 10%);
 		background-repeat:no-repeat;
-		background-position:center right;
-		background-size:auto 80%, auto 100%;
+		background-position:95% 5%;
+		background-size:auto 30%, auto 100%;
 		margin:1% 15px;
 		color:#fff;
 	}
@@ -417,27 +381,10 @@ media query
 @media (min-width:768px){
 	div#navigation{
 		border:0px solid transparent;
-		/*background-image:-moz-linear-gradient(25deg, #1a2247  31.3%, #0087d0 31.3%);
-		background-image:-webkit-linear-gradient(25deg, #1a2247  31.3%, #0087d0 31.3%);*/
 	}
-	ul#ul-nav{
-		float:right;
-		margin-top:40px;
-	}
-
 	h1.naslov{
-		position:relative;
-		width:100%;
-		padding-left:15%;
-		margin-top:-1%;
-		padding-top:1%;
-		-webkit-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		transform: translateY(-50%);
-		background: transparent;
-		background: -moz-linear-gradient(30deg, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0.00) 30%);
-		background: -webkit-linear-gradient(30deg, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0.00) 30%);
-		color:#182143;
+		background: -moz-linear-gradient(30deg, rgb(255, 255, 255) 40%, rgba(255, 255, 255, 0.00) 40%);
+		background: -webkit-linear-gradient(30deg, rgb(255, 255, 255) 40%, rgba(255, 255, 255, 0.00) 40%);
 	}
 	#foto_link>div{
 		margin-bottom:0%;
@@ -502,6 +449,14 @@ media query
 	}
 }
 @media (min-width:1000px){
+	ul#ul-nav{
+		float:right;
+		margin-top:40px;
+	}
+	ul#ul-nav li a{
+		margin:0px;
+		padding:0px 5px 0px 8px;
+	}
 	ul#ul-nav li::before{
 		content: "|";
 		position: relative;
@@ -521,5 +476,18 @@ media query
 		margin-top:-25%;
 		color: #fff;
 		text-align:left;
+	}
+	h1.naslov{
+		padding-left:25%;
+	}
+}
+@media (min-width:1200px){
+	ul#ul-nav{
+		margin-top:40px;
+		margin-right:40px;
+	}
+	ul#ul-nav li a{
+		margin:0px;
+		padding:0px 15px 0px 15px;
 	}
 }
