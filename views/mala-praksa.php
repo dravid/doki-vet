@@ -33,31 +33,33 @@
 				<div class="col-sm-12">
 					<h1>Usluga 1</h1>
 				</div>
-				<div class="col-sm-3">
-					<img src="images/round-staff.png" alt="Na&#353; tim" class="img-responsive">
-				</div>
+				
 				<div class="col-sm-9">
 					Lorem ipsum dolor sit amet, consectetuer adi-piscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamco-rper suscipit lobortis nisl ut aliquip ex ea commodo con-sequat. 
+				</div>
+				<div class="col-sm-3">
+					<img src="images/round-staff.png" alt="Na&#353; tim" class="img-responsive">
 				</div>
 				<div class="col-sm-12">
-					<h1>Usluga 1</h1>
-				</div>
-				<div class="col-sm-3">
-					<img src="images/round-staff.png" alt="Na&#353; tim" class="img-responsive">
-				</div>
-				<div class="col-sm-9">
-					Lorem ipsum dolor sit amet, consectetuer adi-piscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamco-rper suscipit lobortis nisl ut aliquip ex ea commodo con-sequat. 
-				</div>
-				<div class="col-sm-12">
-					<h1>Usluga 1</h1>
-				</div>
-				<div class="col-sm-3">
-					<img src="images/round-staff.png" alt="Na&#353; tim" class="img-responsive">
-				</div>
-				<div class="col-sm-9">
-					Lorem ipsum dolor sit amet, consectetuer adi-piscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamco-rper suscipit lobortis nisl ut aliquip ex ea commodo con-sequat. 
+					<h1>Usluga 2</h1>
 				</div>
 				
+				<div class="col-sm-9">
+					Lorem ipsum dolor sit amet, consectetuer adi-piscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamco-rper suscipit lobortis nisl ut aliquip ex ea commodo con-sequat. 
+				</div>
+				<div class="col-sm-3">
+					<img src="images/round-staff.png" alt="Na&#353; tim" class="img-responsive">
+				</div>
+				<div class="col-sm-12">
+					<h1>Usluga 3</h1>
+				</div>
+				
+				<div class="col-sm-9">
+					Lorem ipsum dolor sit amet, consectetuer adi-piscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamco-rper suscipit lobortis nisl ut aliquip ex ea commodo con-sequat. 
+				</div>
+				<div class="col-sm-3">
+					<img src="images/round-staff.png" alt="Na&#353; tim" class="img-responsive">
+				</div>
 				
 			</div>
 		</div>
