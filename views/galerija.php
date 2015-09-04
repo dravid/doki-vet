@@ -39,8 +39,8 @@
 	<div class="row ">
 		<div class="col-sm-4">
 			
-				<a href="images/o-nama-lg.png" data-lightbox="galerija" >
-					<img src="images/o-nama-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
+				<a href="images/ostale-usluge-lg.png" data-lightbox="galerija" >
+					<img src="images/ostale-usluge-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
 				</a>
 			
 		</div>
@@ -53,31 +53,8 @@
 		</div>
 		<div class="col-sm-4">
 			
-				<a href="images/o-nama-lg.png" data-lightbox="galerija" >
-					<img src="images/o-nama-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
-				</a>
-			
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-4">
-			
-				<a href="images/o-nama-lg.png" data-lightbox="galerija" >
-					<img src="images/o-nama-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
-				</a>
-			
-		</div>
-		<div class="col-sm-4">
-			
-				<a href="images/o-nama-lg.png" data-lightbox="galerija" >
-					<img src="images/o-nama-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
-				</a>
-			
-		</div>
-		<div class="col-sm-4">
-			
-				<a href="images/o-nama-lg.png" data-lightbox="galerija" >
-					<img src="images/o-nama-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
+				<a href="images/ostale-usluge-lg.png" data-lightbox="galerija" >
+					<img src="images/ostale-usluge-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
 				</a>
 			
 		</div>
@@ -92,8 +69,8 @@
 		</div>
 		<div class="col-sm-4">
 			
-				<a href="images/o-nama-lg.png" data-lightbox="galerija" >
-					<img src="images/o-nama-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
+				<a href="images/ostale-usluge-lg.png" data-lightbox="galerija" >
+					<img src="images/ostale-usluge-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
 				</a>
 			
 		</div>
@@ -108,8 +85,8 @@
 	<div class="row">
 		<div class="col-sm-4">
 			
-				<a href="images/o-nama-lg.png" data-lightbox="galerija" >
-					<img src="images/o-nama-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
+				<a href="images/ostale-usluge-lg.png" data-lightbox="galerija" >
+					<img src="images/ostale-usluge-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
 				</a>
 			
 		</div>
@@ -117,6 +94,29 @@
 			
 				<a href="images/o-nama-lg.png" data-lightbox="galerija" >
 					<img src="images/o-nama-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
+				</a>
+			
+		</div>
+		<div class="col-sm-4">
+			
+				<a href="images/ostale-usluge-lg.png" data-lightbox="galerija" >
+					<img src="images/ostale-usluge-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
+				</a>
+			
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4">
+			
+				<a href="images/o-nama-lg.png" data-lightbox="galerija" >
+					<img src="images/o-nama-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
+				</a>
+			
+		</div>
+		<div class="col-sm-4">
+			
+				<a href="images/ostale-usluge-lg.png" data-lightbox="galerija" >
+					<img src="images/ostale-usluge-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
 				</a>
 			
 		</div>
