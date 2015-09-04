@@ -15,8 +15,8 @@
 	<h1 class="naslov">O nama</h1>
 	<div class="row" id="about_content">
 		<div class="col-sm-9">
-			<div class="row">
-				<div class="col-sm-6">
+			<div class="row  text-justify">
+				<div class="col-sm-6 ">
 				Veterinarska stanica "Doki-Vet" je osno-vana 2006. godine. Osnivač i vlasnik je dr.vet.med. Duško Petrović. Kao član udruženja veterinara male prakse Srbije, Duško Petrović je odlučio da delatnosti svoje stanice usmeri ka maloj kao i ka velikoj praksi. Veterinarska stanica "Doki-Vet" zapošjava četiri veterinara, dva veterinarska tehničara i jednog operatera.
 				</div>
 				<div class="col-sm-6">
@@ -24,7 +24,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-12">
+				<div class="col-sm-12  text-justify">
 					<h1>Podnaslov</h1>
 					<p>Veterinarska stanica "Doki-Vet" je osno-vana 2006. godine. Osnivač i vlasnik je dr.vet.med. Duško Petrović. Kao član udruženja veterinara male prakse Srbije, Duško Petrović je odlučio da delatnosti svoje stanice usmeri ka maloj kao i ka velikoj praksi. Veterinarska stanica "Doki-Vet" zapošjava četiri veterinara, dva veterinarska tehničara i jednog operatera.</p>
 				</div>
@@ -70,7 +70,7 @@
 		<div class="col-sm-3" id="about_gallery">
 			<div class="col-sm-12">
 				<h1>Galerija</h1>
-				<a href="#">Pogledaj galeriju</a>
+				<a href="galerija">Pogledaj galeriju</a>
 			</div>
 			<div class="col-xs-6 col-sm-12">
 				<a href="#">

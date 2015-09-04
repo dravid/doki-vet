@@ -10,7 +10,7 @@
 		<img src="images/o-nama-sm.png" alt="doki-vet pregled" class="img-responsive full-width">
 	</picture>
 	<div id="sapa"></div>
-	<div> <h2><span>Poverenje</span><br> stru&#269;nost<br> posve&#263;enost</h2></div>
+	<div> <h2><span>Saznajte</span><br> vi&#353;e o<br> velikoj praksi<br> na&#353;e<br> veterinarske<br> stanice</h2></div>
 </div>
 	<h1 class="naslov">Velika praksa</h1>
 	<div class="row" id="mala_content">

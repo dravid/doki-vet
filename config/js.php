@@ -11,6 +11,9 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
+<!-- lightbox -->
+<script src="js/lightbox.min.js"></script>
+
 <script>
 	$(function(){
 		$('#console-debug').hide();

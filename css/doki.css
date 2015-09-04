@@ -183,6 +183,8 @@ pocetna home
 }
 #img-sapa>div h2 span{
 	color:orange;
+	font-family: roboto-bold;
+	font-weight:900;
 }
 #img-sapa>div#sapa:before{
 	content: ' ';
@@ -288,11 +290,66 @@ mala praksa
 **********************************/
 #mala_content{
 	overflow: hidden;
+	margin-bottom:2%;
+	position:relative;
+	/*background-image:url("../images/sestra.png");
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	background-size:10%;*/
+	z-index:100;
 }
 #mala_saveti{
-	background-color:#008cd2;
+	margin-right:1%;
+	margin-left:-1%;
+	background-color:#008cd2;/*;*/
 	margin-bottom: -10000px;
 	padding-bottom: 10000px;
+	color:#fff;
+	
+}
+#mala_saveti h2,
+#mala_saveti h4{
+	font-family:roboto-bold;
+}
+#mala_saveti h2 small{
+	color:#fff;
+}
+#sestra>img{
+	width:10%;
+	margin:0px auto;
+	clear:both;
+	position:absolute;
+	bottom:0px;
+	right:2%;
+}
+/**********************************
+ostale usluge
+***********************************/
+#img-sapa>div#sapa2:before{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 1;
+	background-image:url(../images/sapa.png);
+	background-repeat:no-repeat;
+	background-position:80% 80%;
+	-ms-background-size: 30%;
+    -o-background-size: 30%;
+    -moz-background-size: 30%;
+    -webkit-background-size: 30%;
+    background-size: 30%;
+	background-color:transparent;
+}
+/**********************************
+galerija
+************************************/
+#galerija>div.row>div{
+	margin-bottom:2%;
 }
 /**********************************
 footer
