@@ -352,6 +352,29 @@ galerija
 	margin-bottom:2%;
 }
 /**********************************
+kontakt
+************************************/
+#kontakt{
+	position:relative;
+}
+#kontakt img{
+	display:inline-block;
+	position:relative;
+	z-index:100; 
+	border-radius:50%; 
+	width:30%; 
+	height:auto;
+	margin-left:40%;
+}
+#kontakt_info{
+	display:inline-block;
+	position:absolute;
+	top:20%;
+	background-color:#00a5ef;
+	color:#fff;
+	width:50%;
+}
+/**********************************
 footer
 ************************************/
 #footer{

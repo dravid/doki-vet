@@ -18,9 +18,11 @@
 </div>
 <h1 class="naslov">Kontakt</h1>
 <div id="kontakt">
-	<img src="" alt="mapa" style="float:right;">
+	<a href="http://www.scribblemaps.com/maps/view/doki_vet/dokivet" target="_blank">
+		<img src="images/mapa.png" alt="mapa" class="img-responsive">
+	</a>
 	<div class="row">
-		<div class="col-sm-6" style="background-color:#00a5ef;color:#fff;">
+		<div class="col-sm-6" id="kontakt_info">
 			<div>DOKI VET</div>
 			<div>Petra Drap&#353;ina 70, &#268;oka</div>
 			<div>+381 (0)230 72699</div>
@@ -29,5 +31,24 @@
 			
 		</div>
 	</div>
-
+	<div class="clear"></div>
+	<div class="row">
+		<div class="col-sm-3" id="kontakt_forma">
+			<div class="form-group">
+				<div class="col-lg-12">
+					<input class="form-control" name="inputContactPerson" id="kontaktOsoba" type="text" placeholder="Ime Prezime" required>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-lg-12">
+					<input class="form-control" name="inputEmail" id="inputEmail" type="email" placeholder="Vasa e-mail adresa" required>
+				</div>
+			</div>
+			<div class="form-group">				
+				<div class="col-lg-12">
+					<textarea class="form-control" id="inputMessage" name="inputMessage" placeholder="Tekst" rows="5"></textarea>						
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
