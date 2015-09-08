@@ -362,17 +362,29 @@ kontakt
 	position:relative;
 	z-index:100; 
 	border-radius:50%; 
-	width:30%; 
+	width:40%; 
 	height:auto;
 	margin-left:40%;
 }
-#kontakt_info{
+#kontakt_info_wrap{
 	display:inline-block;
 	position:absolute;
-	top:20%;
-	background-color:#00a5ef;
+	top:0%;
 	color:#fff;
 	width:50%;
+}
+#kontakt_info_wrap h1{
+	color:#182143;
+}
+#kontakt_info{
+	position:relative;
+	background-color:#00a5ef;
+}
+#kontakt_info>p{
+	position:relative;
+	padding-left:2%;
+	background-color:green;
+	border:1px solid red;
 }
 /**********************************
 footer

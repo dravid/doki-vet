@@ -133,6 +133,6 @@ Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit. L
 Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 		</div>
 		<div class="col-sm-4 col-md-4">
-			<div class="fb-page" data-width="500" data-height="600" data-href="https://www.facebook.com/suboticacom.gradnadlanu" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div></div>
+			<div class="fb-page" data-href="https://www.facebook.com/facebook" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div></div>
 		</div>
 	</div> <!--END row -->
