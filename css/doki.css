@@ -365,6 +365,7 @@ kontakt
 	width:40%; 
 	height:auto;
 	margin-left:40%;
+	margin-bottom:10%;
 }
 #kontakt_info_wrap{
 	display:inline-block;
@@ -380,11 +381,41 @@ kontakt
 	position:relative;
 	background-color:#00a5ef;
 }
-#kontakt_info>p{
+#kontakt_info>div{
 	position:relative;
-	padding-left:2%;
-	background-color:green;
-	border:1px solid red;
+	padding:2%;
+}
+#kontakt_forma{
+	position:absolute;
+	top:35%;
+}
+#kontakt_forma .form-group{
+	margin:4px auto;
+}
+#kontakt_forma form div[class*="col-"]{
+	padding-left:0px;
+}
+#kontakt_forma input{
+	background-color:#bcbec0;
+	color:#000;
+}
+#kontakt_forma textarea{
+	resize:none;
+	background-color:#bcbec0;
+	background-image:url("../images/sapa-kontakt.png");
+	background-repeat:no-repeat;
+	background-position:90% 10%;
+	background-size:auto 50%;
+	color:#000;
+}
+#kontakt_forma textarea::-moz-placeholder,
+#kontakt_forma input::-moz-placeholder{
+	color:grey;
+}
+#kontakt_forma button{
+	position:relative;
+	right:0px;
+	display:block;
 }
 /**********************************
 footer
@@ -540,6 +571,28 @@ media query
 		margin:1% 15px;
 		color:#fff;
 	}
+	#kontakt img{
+		width:50%; 
+		height:auto;
+		margin-top:-5%;
+		margin-left:48%;
+		margin-bottom:40%;
+	}
+	#kontakt_info_wrap{
+		display:inline-block;
+		position:absolute;
+		top:-16%;
+		width:70%;
+	}
+	#kontakt_info{
+		position:relative;
+		background-color:#00a5ef;
+	}
+	
+	#kontakt_forma{
+		position:absolute;
+		top:37%;
+	}
 }
 @media (min-width:768px){
 	div#navigation{
@@ -593,6 +646,28 @@ media query
 		text-align:center;
 		float: right;
 	}
+	#kontakt img{
+		width:40%; 
+		height:auto;
+		margin-top:-5%;
+		margin-left:50%;
+		margin-bottom:20%;
+	}
+	#kontakt_info_wrap{
+		display:inline-block;
+		position:absolute;
+		top:-18%;
+		width:70%;
+	}
+	#kontakt_info{
+		position:relative;
+		background-color:#00a5ef;
+	}
+	
+	#kontakt_forma{
+		position:absolute;
+		top:37%;
+	}
 	
 	#footer_contact div{
 		display:inline-block;
@@ -643,6 +718,29 @@ media query
 	h1.naslov{
 		padding-left:25%;
 	}
+	#kontakt img{
+		width:40%; 
+		height:auto;
+		margin-top:0%;
+		margin-left:50%;
+		margin-bottom:20%;
+	}
+	#kontakt_info_wrap{
+		display:inline-block;
+		position:absolute;
+		top:0%;
+		width:60%;
+	}
+	#kontakt_info{
+		position:relative;
+		background-color:#00a5ef;
+	}
+	
+	#kontakt_forma{
+		position:absolute;
+		top:37%;
+	}
+	
 }
 @media (min-width:1200px){
 	ul#ul-nav{
@@ -653,4 +751,28 @@ media query
 		margin:0px;
 		padding:0px 15px 0px 15px;
 	}
+	#kontakt img{
+		width:40%; 
+		height:auto;
+		margin-left:50%;
+		margin-bottom:10%;
+	}
+	#kontakt_info_wrap{
+		display:inline-block;
+		position:absolute;
+		top:0%;
+		width:60%;
+	}
+	#kontakt_info{
+		position:relative;
+		background-color:#00a5ef;
+	}
+	
+	#kontakt_forma{
+		position:absolute;
+		top:35%;
+	}
+	#kontakt_forma .form-group{
+	margin:15px auto;
+}
 }
