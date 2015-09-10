@@ -325,6 +325,9 @@ mala praksa
 /**********************************
 ostale usluge
 ***********************************/
+#ostale_usluge_content{
+	margin-bottom:2%;
+}
 #img-sapa>div#sapa2:before{
 	content: ' ';
     display: block;
