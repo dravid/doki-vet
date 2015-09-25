@@ -157,10 +157,10 @@ pocetna home
 	right: -30%;
 	height:100%;
 	width:30%;
-	-webkit-animation: mymove 1s linear forwards; /* Chrome, Safari, Opera */
-    -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
-    animation: mymove 1s linear forwards;
-    animation-delay: 1s;
+	-webkit-animation: mymove 0.8s linear forwards; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 0.8s; /* Chrome, Safari, Opera */
+    animation: mymove 0.8s linear forwards;
+    animation-delay: 0.8s;
 }
 
 /* Chrome, Safari, Opera */
@@ -355,6 +355,46 @@ galerija
 	margin-bottom:2%;
 }
 /**********************************
+drustveni kutak - blog
+************************************/
+#blog{
+	text-align:justify;
+	overflow: hidden;
+	margin-bottom:2%;
+	position:relative;
+}
+#blog .row{
+	margin: 1% auto;
+}
+#blog .col-sm-3{
+	padding-bottom:25%;
+}
+div#pitanja{
+	background-color:orange;
+	background-image:none;
+	margin-bottom: -1000%;
+	padding-bottom: 1100%;
+	color:#fff;
+}
+div#pitanja img{
+	border-radius:50%;
+	float:left;
+	margin-right:3%;
+	vertical-align:middle;
+}
+div#pitanja h5, div#pitanja h4{
+	position:relative;
+}
+#dr-kucovic>img{
+	height:20%;
+	clear:both;
+	margin:0px auto;
+	position:absolute;
+	bottom:0%;
+	right:2%;
+}
+
+/**********************************
 kontakt
 ************************************/
 #kontakt{
@@ -415,10 +455,17 @@ kontakt
 #kontakt_forma input::-moz-placeholder{
 	color:grey;
 }
-#kontakt_forma button{
+/*#kontakt_forma button{
 	position:relative;
 	right:0px;
 	display:block;
+}*/
+#kontakt_forma button{
+	position:absolute;
+	right:15px;
+}
+#kontakt_forma button[type="submit"]{
+	left:0px;
 }
 /**********************************
 footer
@@ -574,17 +621,24 @@ media query
 		margin:1% 15px;
 		color:#fff;
 	}
+	div#pitanja{
+		background-color:orange;
+		background-image:url('../images/upitnik.png');
+		background-repeat:no-repeat;
+		background-position:95% 0.5%;
+		background-size:20%;
+	}
 	#kontakt img{
 		width:50%; 
 		height:auto;
 		margin-top:-5%;
 		margin-left:48%;
-		margin-bottom:40%;
+		margin-bottom:50%;
 	}
 	#kontakt_info_wrap{
 		display:inline-block;
 		position:absolute;
-		top:-16%;
+		top:-15%;
 		width:70%;
 	}
 	#kontakt_info{
@@ -596,6 +650,7 @@ media query
 		position:absolute;
 		top:37%;
 	}
+	
 }
 @media (min-width:768px){
 	div#navigation{
@@ -654,7 +709,7 @@ media query
 		height:auto;
 		margin-top:-5%;
 		margin-left:50%;
-		margin-bottom:20%;
+		margin-bottom:30%;
 	}
 	#kontakt_info_wrap{
 		display:inline-block;
@@ -669,7 +724,7 @@ media query
 	
 	#kontakt_forma{
 		position:absolute;
-		top:37%;
+		top:25%;
 	}
 	
 	#footer_contact div{
