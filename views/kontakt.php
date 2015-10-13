@@ -22,7 +22,7 @@
 	
 	<div class="row">
 		<div class="col-sm-6" id="kontakt_info_wrap">
-			<h1 class="">Kontakt</h1>
+			<h1 class="roboto-bold">Kontakt</h1>
 			<div id="kontakt_info">
 				<div>
 					<h3>DOKI VET</h3>
@@ -35,12 +35,17 @@
 		</div>
 	</div>
 	<a href="http://www.scribblemaps.com/maps/view/doki_vet/dokivet" target="_blank">
-		<img src="images/mapa.png" alt="mapa" class="img-responsive">
+		<picture>
+			<source 
+				media="(min-width: 450px)" 
+				srcset="images/mapa.png">
+			<img src="images/mapa-mala.png" alt="mapa Doki-Vet" class="img-responsive full-width">
+		</picture>
 	</a>
 	<div class="clear"></div>
 	
 	<div class="row">
-		<div class="col-sm-4" id="kontakt_forma">
+		<div class="col-sm-5 col-md-6 col-lg-4" id="kontakt_forma">
 			<h1>Pi&#353;ite nam na</h1>
 			<p>dokivet@open.telekom.rs</p>
 			<form>
@@ -82,6 +87,6 @@
 				
 			</form>
 		</div><!-- #kontakt_forma -->
-		<div class="col-sm-8"></div>
+		<div class="col-sm-7 col-md-6 col-lg-8"></div>
 	</div><!--row-->
 </div><!--#kontakt-->
